@@ -1,4 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
 .env
+
+# Carpeta privada del profesor: notebooks de seguimiento, datos personales de los
+# alumnos (DNI, celular, correo) y los clones de sus repos. NO subir: los alumnos
+# tienen acceso a este repositorio.
+seguimiento/
+
+# Datos del curso
 data
 
-.venv
+.DS_Store
+.claude
+
+
+# Model checkpoints
+models
+
+# Notebooks tutoriales
+notebooks_tutoriales
+
+# docs
+docs
+deliverables
